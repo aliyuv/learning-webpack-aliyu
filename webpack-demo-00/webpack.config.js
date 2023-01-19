@@ -11,4 +11,15 @@ module.exports = {
         template: 'index.html',
         title: "Webpack App"
     })],
+    module: {
+        rules: [
+            {
+                test: /\.css$/,
+                use: [
+                    'style-loader',
+                    'css-loader'
+                ]
+            }
+        ]
+    }
 };

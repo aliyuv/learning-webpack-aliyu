@@ -24,3 +24,5 @@ console.log(createApp);
 //in webpack use react
 import React from 'react'
 console.log(React);
+
+import './style/index.css'
