@@ -1,6 +1,6 @@
 # learning-webpack-aliyu
 
-#### 如何学习 Webpack
+## 如何学习 Webpack
 - 给自己一个任务，越奇葩越好
 - 去文档或 GitHub 搜 loader 或插件
 - 搞定它
