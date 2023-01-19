@@ -3,7 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 
 module.exports = {
-    mode: 'production',
+    mode: 'development',
     module: {
         rules: [
             {
@@ -12,7 +12,15 @@ module.exports = {
                     MiniCssExtractPlugin.loader,
                     'css-loader'
                 ]
-            }
+            },
+            {
+                test: /\.(png|jpe?g|gif)$/i,
+                use: [
+                    {
+                        loader: 'file-loader',
+                    },
+                ],
+            },
         ]
     },
     plugins: [new HtmlWebpackPlugin({
