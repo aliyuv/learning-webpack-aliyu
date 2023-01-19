@@ -25,4 +25,6 @@ console.log(createApp);
 import React from 'react'
 console.log(React);
 
-import './style/index.css'
+import './style.css'
+import './a.css'
+import './rest.css'
